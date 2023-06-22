@@ -17,4 +17,12 @@ export class HeroComponent {
   get capitalizedName():string {
     return this.name.toUpperCase()
   }
+
+  changeHero():void{
+    this.name = 'spiderman';
+  }
+
+  changeAge():void{
+    this.age = 20;
+  }
 }
