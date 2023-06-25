@@ -22,7 +22,7 @@ export class DbzService {
     power: 7500
   }];
 
-  onNewCharacter(character:Character): void{
+  addCharacter(character:Character): void{
     const newCharacter:Character = {id:uuid(), ...character};
     // toma todas estas propiedades y exparselas en este nuevo objeto
     this.characters.push(newCharacter);
