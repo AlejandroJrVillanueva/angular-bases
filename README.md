@@ -1,3 +1,19 @@
+# Bases de Angular: Temas puntuales de la sección
+
+FormsModule
+
+ngModel
+
+@Inputs
+
+@outputs
+
+Servicios
+
+Métodos en servicios
+
+Depuraciones
+
 # Bases de Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
